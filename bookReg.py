@@ -22,7 +22,6 @@ st.title("📚 GPK Books - Insert Data")
 book_name = st.text_input("Book Name")
 author_name = st.text_input("Author Name")
 stocks_of_books = st.number_input("Total Stocks of Books", min_value=0, step=1)
-available_stock = st.number_input("Available Stock", min_value=0, step=1)
 
 if st.button("Insert Data"):
     try:
